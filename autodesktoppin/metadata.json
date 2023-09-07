@@ -1,0 +1,20 @@
+{
+  "KPackageStructure": "KWin/Script",
+  "KPlugin": {
+    "Name": "Auto Desktop Pin",
+    "Description": "Pin window on selected desktop",
+    "Icon": "preferences-system-windows",
+    "Authors": [
+      {
+        "Email": "zhoukexing@pku.edu.cn",
+        "Name": "Kexing Zhou"
+      }
+    ],
+    "Id": "autodesktoppin",
+    "Version": "1.0",
+    "License": "GPLv3"
+  },
+  "X-Plasma-API": "javascript",
+  "X-Plasma-MainScript": "code/main.js",
+  "X-KDE-ConfigModule": "kwin/effects/configs/kcm_kwin4_genericscripted"
+}
